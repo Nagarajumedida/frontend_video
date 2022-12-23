@@ -31,4 +31,4 @@ yarn-error.log*
 # vercel
 .vercel
 .gitignore
-/next.config.js/
+/next.config.js
