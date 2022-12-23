@@ -1,34 +1,89 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Avengers video calling app
 
-## Getting Started
+> Hello guys, recently we created our own avengers video calling app using react.js, Next.js, peer js., node js, Express, The concepts might be a little bit difficult   but we will try to explain with our best efforts. But before getting started let’s know about some of its core features:
 
-First, run the development server:
+- Video calling 
+- generate random Id
+
+
+> Socket.io
+  Socket.io is used for real-time and event-based communication between the client(browser) and sever.
+  # Installation
+   npm install socket.io
+  
+> Peer js
+  PeerJS simplifies WebRTC peer-to-peer data, video, and audio calls. PeerJS wraps the browser’s WebRTC implementation to provide a complete, configurable, and easy-     to-use peer-to-peer connection API
+
+> what is webrtc?
+  Webrtc is used for real-time media communication (Voice and Video Chat) between devices. webrtc allows us to capture the microphone, camera, or screen of the device   which we can share that data with other users.
+
+
+
+## Built With
+- Next.js
+- React.js
+- Render
+- Socket.io,
+- Peer.js, 
+- webrtc.
+- Chakra-UI
+- Material-UI
+
+## Screenshots1
+
+![App Screenshot](./image/Screenshot1.png)
+
+
+## Screenshots2
+
+![App Screenshot](./image/Screenshot2.png)
+
+## Run Locally
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
+  git clone https://github.com/Nagarajumedida/frontend_video.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+  cd Frontend
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Install dependencies
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+  npm install
+```
 
-## Learn More
+Start the server
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+  npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
+Next.js, React.js, Redux-Thunk , Api , Render. Socket.io, Peer.js,  webrtc, Chakra-UI, Material-UI
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Setup
+VS code , GitHub, Render, postman, netlify, vercel
 
-## Deploy on Vercel
+## Authors
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+👤 **Kartik Kunwar**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- GitHub: [@kartikkunwar](https://github.com/kartikkunwar)
+
+👤 **Nagaraju Medida**
+
+- GitHub: [@Nagarajumedida](https://github.com/Nagarajumedida)
+
+👤 **Vikash Kumar**
+
+- GitHub: [@vikashkr-byte](https://github.com/vikashkr-byte)
+
+👤 **Priyanka Phulmante**
+
+- GitHub: [@priyankaphulmante98](https://github.com/priyankaphulmante98)
